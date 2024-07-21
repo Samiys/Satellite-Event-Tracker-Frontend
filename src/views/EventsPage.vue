@@ -1,5 +1,5 @@
 <template>
-  <div class="container-fluid mt-2 mb-5">
+  <div class="container-fluid mt-2">
     <div class="header-margin">
       <div class="header d-flex justify-content-between align-items-center mb-3">
         <h2 class="title">Home</h2>

@@ -18,7 +18,7 @@
         <label for="satelliteName" class="form-label">Satellite Name:</label>
         <input type="text" v-model="event.satelliteName" class="form-control" id="satelliteName" required>
       </div>
-      <button type="submit" class="btn btn-warning">Create Event</button>
+      <button type="submit" class="btn btn-modern" style="background: #6fc168;color: white">Create Event</button>
     </form>
   </div>
 </template>
