@@ -28,14 +28,18 @@
       </div>
       <div class="mb-3">
         <label for="priority" class="form-label">Priority:</label>
-        <input
-            type="text"
+        <select
             v-model="event.priority"
             class="form-control"
             id="priority"
             required
             @blur="validateField('priority')"
-        />
+        >
+          <option value="" disabled>Select priority</option>
+          <option v-for="option in priorityOptions" :key="option" :value="option">
+            {{ option }}
+          </option>
+        </select>
         <div v-if="errors.priority" class="text-danger">{{ errors.priority }}</div>
       </div>
       <div class="mb-3">
@@ -67,6 +71,7 @@ export default {
         priority: '',
         satelliteName: ''
       },
+      priorityOptions: ['High', 'Medium', 'Low'],
       errors: {}
     };
   },
