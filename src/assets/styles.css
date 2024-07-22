@@ -1,0 +1,121 @@
+.color-white {
+    color: white;
+}
+
+.btn-modern {
+    background: #6fc168;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.3s ease;
+}
+
+.btn-modern:hover {
+    background: #9263ab;
+    color: white;
+    transform: translateY(-2px);
+}
+
+.btn-modern:active {
+    transform: translateY(1px);
+}
+
+.btn-modern:disabled {
+    background: #cccccc;
+    cursor: not-allowed;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    color: white;
+}
+
+.header-margin {
+    margin: 0 160px 0 160px;
+}
+
+.events-container {
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+    border-radius: 10px;
+}
+
+.search-input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.events-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.events-table th, .events-table td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+}
+
+.events-table th {
+    background-color: #f8f8f8;
+    font-weight: 600;
+}
+
+.events-table tr {
+    transition: background-color 0.3s ease;
+}
+
+.events-table tr:hover {
+    background-color: #f1f1f1;
+}
+
+.highlighted-row {
+    background-color: #d0e7ff;
+}
+
+.tle-info {
+    margin-bottom: 20px;
+    padding: 15px;
+    background: #f9f9f9;
+    border-left: 5px solid #007bff;
+    border-radius: 5px;
+    max-height: 160px;
+    overflow-y: auto;
+}
+
+.tle-scroll {
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
+
+.cursor-default {
+    cursor: default;
+}
+
+.text-danger {
+    color: red;
+    font-size: 0.875em;
+}
